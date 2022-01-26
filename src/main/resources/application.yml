@@ -1,1 +1,15 @@
-{}
+quarkus:
+  datasource:
+    db-kind: mysql
+    username: root
+    password: Eganmuw67848.110110
+    jdbc:
+      url: jdbc:mysql://localhost:3306/financial_management?autoReconnect=true       
+    users:
+      min-size: 0
+      max-size: 10 
+  http:
+    port: 3333
+    cors: true
+      
+      
